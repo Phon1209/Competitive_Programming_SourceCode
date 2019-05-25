@@ -1,0 +1,8 @@
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text+0x1ee): undefined reference to `ask(std::vector<int, std::allocator<int> >&)'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text+0x309): undefined reference to `ask(std::vector<int, std::allocator<int> >&)'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text+0x522): undefined reference to `ask(std::vector<int, std::allocator<int> >&)'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text+0x53c): undefined reference to `ask(std::vector<int, std::allocator<int> >&)'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text+0x5dd): undefined reference to `match(int, int)'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text.startup+0x20): undefined reference to `num()'
+C:\Users\Phon1209\AppData\Local\Temp\ccBVRJ1e.o:o62_mar_c1_socks.cxx:(.text.startup+0x80): undefined reference to `ask(std::vector<int, std::allocator<int> >&)'
+collect2.exe: error: ld returned 1 exit status

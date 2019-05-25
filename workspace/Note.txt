@@ -1,0 +1,26 @@
+quick-select - quicksort ทำด้านเดียว  O(n)
+Master Theorem:
+
+T(n)=3T(n/2)+5n
+a=3 b=2 f(n)=5n p=1 k=logb(a)=1.58...
+T(n)=O(n^log2(3));
+
+T(n)=aT(n/b)+f(n)
+f(n)=c*n^(p)
+p=logn(f(n))
+k=level of recursion
+
+Case 1: if f(n)=O(n^p)  for p<logb(a) then T(n)=O(n^k)
+Case 2: if f(n)=O(n^p * log(n)^p) for p=logb(a) then T(n) = O(n^k logp+1(n))
+Case 3: if f(n)=Omega(n^k) for some constant k>logb(a) ans if a*f(n/b)<=c*f(n)
+        for some constant c<1 and all sufficiently large n then T(n)=Omega(f(n))
+
+
+
+Closest pair of points:
+Algorithm:
+  Divide : draw vertical line L so that roughly in point on each side
+  Conquer : find closest pair in each side recursively
+  Combine :
+
+Integer Multiplication:

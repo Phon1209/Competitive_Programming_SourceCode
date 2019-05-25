@@ -1,0 +1,23 @@
+#include<stdio.h>
+int a[100][100],b[100][100];
+int main()
+{
+    int r,c,i,j,n,x,y;
+    scanf("%d %d %d",&r,&c,&n);
+    while(n--)
+    {
+        scanf("%d %d",&x,&y);
+        b[y][x]=1;
+    }
+    a[1][0]=1;
+    for(i=1;i<=c;i++)
+    {
+        for(j=1;j<=r;j++)
+        {
+            if(b[i][j]==1)
+                a[i][j]=0;
+            else a[i][j]=a[i-1][j]+a[i][j-1];
+        }
+    }
+    printf("%d\n",a[c][r]);
+}
