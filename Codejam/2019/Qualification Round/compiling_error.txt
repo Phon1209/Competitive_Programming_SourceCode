@@ -1,0 +1,7 @@
+D:\Coding\Codejam\2019\Qualification Round\D.cxx: In function 'int main()':
+D:\Coding\Codejam\2019\Qualification Round\D.cxx:56:10: error: 't' was not declared in this scope
+     sint(t);
+          ^
+D:\Coding\Codejam\2019\Qualification Round\D.cxx:56:11: error: 'sint' was not declared in this scope
+     sint(t);
+           ^

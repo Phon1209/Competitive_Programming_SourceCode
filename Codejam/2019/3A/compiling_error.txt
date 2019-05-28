@@ -1,0 +1,4 @@
+D:\Coding\Codejam\2019\3A\C.cxx: In function 'void _main()':
+D:\Coding\Codejam\2019\3A\C.cxx:168:7: error: 'a' was not declared in this scope
+    if(a[i][j]=='.')
+       ^

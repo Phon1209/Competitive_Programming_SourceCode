@@ -1,0 +1,22 @@
+D:\Coding\COCI & COI\array_2.cxx: In function 'void arr(std::__cxx11::string)':
+D:\Coding\COCI & COI\array_2.cxx:82:8: error: 'w' cannot be used as a function
+     w(w);
+        ^
+D:\Coding\COCI & COI\array_2.cxx:110:10: error: 'w' cannot be used as a function
+     w("{");
+          ^
+D:\Coding\COCI & COI\array_2.cxx:147:31: error: 'w' cannot be used as a function
+                 if(--cnt)w(",");
+                               ^
+D:\Coding\COCI & COI\array_2.cxx:152:19: error: 'w' cannot be used as a function
+             w(word);
+                   ^
+D:\Coding\COCI & COI\array_2.cxx:154:27: error: 'w' cannot be used as a function
+             if(--cnt)w(",");
+                           ^
+D:\Coding\COCI & COI\array_2.cxx:166:15: error: 'w' cannot be used as a function
+         w(word);
+               ^
+D:\Coding\COCI & COI\array_2.cxx:172:10: error: 'w' cannot be used as a function
+     w("}");
+          ^
