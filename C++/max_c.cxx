@@ -125,13 +125,9 @@ Node *upt(Node *now,int l,int r,int pos,int val)
 }
 int query(Node *a,Node *b,int l,int r,int k)
 {
-    debug(l);
-    debug(r);
     if(l==r)return l;
     int md=(l+r)/2;
     int u=a->l->val - b->l->val;
-    debug(u);
-    debug(k);
     if(k<=u)return query(a->l,b->l,l,md,k);
     return query(a->r,b->r,md+1,r,k-u);
 }
